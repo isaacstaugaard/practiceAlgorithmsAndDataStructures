@@ -8,8 +8,12 @@ int main(){
     //Code to get the input.
     // n is the size of the input array; calories is the array of calorie values
     int n;
+    //n = 3;
     cin >> n;
     vector<int> calories(n);
+    //calories[0] = 1; 
+    //calories[1] = 3; 
+    //calories[2] = 2;
     for(int calories_i = 0; calories_i < n; calories_i++){
        cin >> calories[calories_i];
     }
